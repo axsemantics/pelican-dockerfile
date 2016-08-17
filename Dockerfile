@@ -1,7 +1,7 @@
-FROM python:2
-MAINTAINER Matthew Jackowski
+FROM python:3
+MAINTAINER Lasse Pommerenke
 
-ENV REFRESHED_AT 2014-11-29
+ENV REFRESHED_AT 2016-08-17
 
 ENV SRV_DIR=//srv
 ENV WORKING_DIR=//srv/pelican
