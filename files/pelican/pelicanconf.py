@@ -1,16 +1,14 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
+#!/usr/bin/env python3
 
-AUTHOR = u'Author'
-SITENAME = u'Quickstart'
-SITEURL = ''
+AUTHOR = 'AX Semantics Carpentry'
+SITENAME = 'AX Semantics Dev Blog'
+SITEURL = 'https://blog.qax.io'
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Europe/Berlin'
 
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -20,14 +18,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
-
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+LINKS = (
+    ('Pelican', 'http://getpelican.com/'),
+    ('AX Semantics', 'https://www.ax-semantics.com/'),
+    ('MyAX', 'https://my.ax-semantics.com/'),
+)
 
 DEFAULT_PAGINATION = 10
 
